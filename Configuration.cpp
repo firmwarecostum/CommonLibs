@@ -30,6 +30,7 @@
 #include "Utils.h"
 #include <fstream>
 #include <iostream>
+#include <stdint.h>
 #include <string.h>
 
 #ifdef DEBUG_CONFIG
