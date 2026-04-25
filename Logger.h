@@ -43,6 +43,7 @@
 #include <map>
 #include <string>
 #include <assert.h>
+#include <unistd.h>
 #include <sys/syscall.h>
 // We cannot include Utils.h because it includes Logger.h, so just declare timestr() here.
 // If timestr decl is changed G++ will whine when Utils.h is included.
